@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore | Homepage</title>
+</head>
+<body>
+    <!-- Pour éviter de se répeter, le header et le footer ne seront pas repris -->
+    <main>
+        {# Hero cpt #}
+        <section className="hero-section">
+            <h1>Big Catchy text</h1>
+            <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, quisquam.</h2>
+            <button type="button"> {# CtaButton cpt #}
+                Shop Now
+            </button>
+        </section>
+
+        {# Transition cpt #}
+        <section>
+            <p>Some random text to make a short ad about the website and
+                make you want to buy some of our products
+            </p>
+            <div> {# CtaLink cpt #}
+                <a href="">{text}<span>Arrow icon</span></a>      
+            </div>
+        </section>
+
+        {# CategoriesSection cpt #}
+        <section>
+            <h2>Categories</h2>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <div>
+                <div> {# Card cpt #}
+                    <img src="" alt="" />
+                    <div>
+                        <h4>{categoryName}</h4>
+                    </div>
+                </div>
+                <div> {# Card cpt #}
+                    <img src="" alt="" />
+                    <div>
+                        <h4>{categoryName}</h4>
+                    </div>
+                </div>
+                <div> {# Card cpt #}
+                    <img src="" alt="" />
+                    <div>
+                        <h4>{categoryName}</h4>
+                    </div>
+                </div>
+            </div>
+            <div> {# CtaLink cpt #}
+                <a href="">{text}</a>
+                <span>Arrow icon</span>
+            </div>
+        </section>
+
+        {# NewArrivals cpt #}
+        <section>
+            <h2>New Arrivals</h2>
+            <h3>Explore our latest books</h3>
+            <div> {# CtaLink cpt #}
+                <a href="">{text}</a>
+                <span>Arrow icon</span>
+            </div>
+            <div>
+                <div> {# ArrivalCard cpt #}
+                    <img src="" alt="" />
+                    <div>
+                        <h4>{name}</h4>
+                        <p>{description}</p>
+                        <p>{price} $</p>
+                    </div>
+                </div>
+                <div> {# ArrivalCard cpt #}
+                    <img src="" alt="" />
+                    <div>
+                        <h4>{name}</h4>
+                        <p>{description}</p>
+                        <p>{price} $</p>
+                    </div>
+                </div>
+                <div> {# ArrivalCard cpt #}
+                    <img src="" alt="" />
+                    <div>
+                        <h4>{name}</h4>
+                        <p>{description}</p>
+                        <p>{price} $</p>
+                    </div>
+                </div>
+                <div> {# ArrivalCard cpt #}
+                    <img src="" alt="" />
+                    <div>
+                        <h4>{name}</h4>
+                        <p>{description}</p>
+                        <p>{price} $</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {# Bestsellers cpt #}
+        <section>
+            <div>
+                <h2>Make your choice among our bestsellers</h2>
+                <div> {# CtaLink cpt #}
+                    <a href="">{text}</a>
+                    <span>Arrow icon</span>
+                </div>
+            </div>
+            <div>
+                <div className="left-image">
+                    <img src="" alt="" />
+                </div>
+                <div className="center-image">
+                    <img src="" alt="" />
+                </div>
+                <div className="right-image">
+                    <img src="" alt="" />
+                </div>
+            </div>          
+        </section>
+        
+        {# Transition cpt #}
+        <section>
+            <p>Some random text to make a short ad about the website and
+                make you want to buy some of our products
+            </p>
+            <div> {# CtaLink cpt #}
+                <a href="">{text}</a>
+                <span>Arrow icon</span>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
