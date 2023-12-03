@@ -1,11 +1,11 @@
 function Footer() {
     return ( 
-        <footer>
+        <footer className="">
             <div>
                 <img src="" alt="" />
                 <img src="" alt="" />
             </div>
-            <ul>
+            <ul className="">
                 <li>Info</li>
                 <li>Support</li>
                 <li>Marketing</li>
