@@ -68,9 +68,9 @@ function Shelf() {
                     <img src="" alt="" />
                 </div>
                 <div>
-                    <div><img src="" alt="" /></div>
-                    <div><img src="" alt="" /></div>
-                    <div><img src="" alt="" /></div>
+                    <div><img src="" alt="random book image cover" /></div>
+                    <div><img src="" alt="random book image cover" /></div>
+                    <div><img src="" alt="random book image cover" /></div>
                 </div>
             </section>
         </>

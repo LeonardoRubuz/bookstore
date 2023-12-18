@@ -1,6 +1,12 @@
+import HeroSection from "../components/hero";
+import Shelf from "../components/shelf";
+
 function Shop() {
     return ( 
-        <h1>Shop</h1>
+        <>
+            <HeroSection hasButton={false} />
+            <Shelf />    
+        </>
      );
 }
 
