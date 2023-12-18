@@ -1,6 +1,19 @@
+import BestsellersSection from "../components/bestsellers";
+import CategoriesSection from "../components/categories";
+import HeroSection from "../components/hero";
+import NewArrivalsSection from "../components/newArrivals";
+import TransitionSection from "../components/transition";
+
 function Home() {
     return ( 
-        <h1>Home</h1>
+        <>
+            <HeroSection />
+            <TransitionSection />
+            <CategoriesSection />
+            <NewArrivalsSection />
+            <BestsellersSection />
+            <TransitionSection />
+        </>
      );
 }
 
