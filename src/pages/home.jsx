@@ -7,7 +7,7 @@ import TransitionSection from "../components/transition";
 function Home() {
     return ( 
         <>
-            <HeroSection />
+            <HeroSection hasButton={true} buttonText="Shop Now" />
             <TransitionSection />
             <CategoriesSection />
             <NewArrivalsSection />
